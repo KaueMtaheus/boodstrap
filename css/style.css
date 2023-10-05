@@ -1,2 +1,56 @@
 @charset "UTF-8";
 
+/*Geral*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.row {
+    margin: 0;
+
+}
+
+.container {
+    padding: 70px 0;
+
+}
+
+p, li {
+    color: #444;
+    font-size: 14px;
+
+}
+
+/*Barra de navegação*/
+header, .navbar {
+    background-color: #353D41;
+}
+
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo {
+    width: 80px;
+    padding: 10px;
+}
+
+.navbar-brand {
+    padding: 0;
+    color: white;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+#navbar-links a{
+    color: white;
+}
+
+.navbar-expandi-lg .navbar-nav .nav-links {
+    padding: 1rem .8rem;
+}
